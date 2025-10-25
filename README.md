@@ -41,7 +41,7 @@ This version is fully terminal-based, interactive, and runs directly from the co
 ### 2. Run the Game
 
 ```bash
-python ultimate_tic_tac_toe.py
+python superTicTacToe.py
 ```
 
 ### Game Flow
@@ -77,7 +77,7 @@ python ultimate_tic_tac_toe.py
 - main(): Runs the game loop, handles turns, input, win logic, and display.
 
 ### 🧪 Testing
-This project includes a comprehensive test suite in the file test_super_tic_tac_toe.py that verifies the correctness of all major functions in the game logic.
+This project includes a comprehensive test suite in the file testSuperTicTacToe.py that verifies the correctness of all major functions in the game logic.
 
 There are 4 tests that are written using Python’s built-in unittest framework and cover:
 
@@ -92,7 +92,7 @@ There are 4 tests that are written using Python’s built-in unittest framework 
 #### ▶️ To Run Tests:
 Make sure you have Python installed, then from the terminal, run:
 ```bash
-pytest test_project.py
+pytest testSuperTicTacToe.py
 ```
 If everything is implemented correctly, you will see output like:
 ```bash
